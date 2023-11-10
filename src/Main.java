@@ -26,5 +26,9 @@ public class Main {
 
         Oso o = new Oso("yogi", 41, false, 19);
         System.out.println(o.toString());
+        Animal o2 = new Oso("pedro", 50, false, 4);
+        //System.out.println(o2.getleGustaLaMiel()); //no funciona por que o2 es la superclase y el get es de la clase
+        
+
     }
 }
